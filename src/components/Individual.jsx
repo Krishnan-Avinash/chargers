@@ -2,12 +2,17 @@ import React, { useEffect, useState, useRef } from "react";
 import { useParams } from "react-router-dom";
 import { dataSet } from "../dataset";
 import emailjs from "@emailjs/browser";
+import App2 from "./App2";
+
+//CHAKRA TOAST
+import { useToast } from "@chakra-ui/react";
 
 const Individual = () => {
   const params = useParams();
   const [data, setData] = useState([]);
   const [pass, setPass] = useState("");
   const [flag, setFlag] = useState(false);
+  const [emailFlag, setEmailFlag] = useState(false);
   useEffect(() => {
     setData(dataSet.find((item) => item.id == params.id));
   }, []);
@@ -15,14 +20,20 @@ const Individual = () => {
   const check = () => {
     if (pass == data.password) {
       setFlag(true);
-      console.log("hello");
     } else {
       setFlag(false);
-      console.log("false");
+      toast({
+        title: "Kindly enter correct Password.",
+        status: "warning",
+        duration: 5000,
+        isClosable: true,
+      });
     }
   };
+  const toast = useToast();
 
   const form = useRef();
+  const [p, setP] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -42,52 +53,54 @@ const Individual = () => {
   };
 
   return (
-    <div style={{ padding: "2rem" }}>
+    <div className="individual">
       {!flag && (
-        <div>
+        <div className="enter-password">
           <input
-            style={{ border: "1px solid black" }}
+            className="password"
             placeholder="Enter Password"
             onChange={(e) => setPass(e.target.value)}
           ></input>
-          <button
-            style={{ border: "1px solid blue", marginLeft: "1rem" }}
-            onClick={check}
-          >
-            Submit
-          </button>
+          <button onClick={check}>Submit</button>
         </div>
       )}
 
       {flag && (
-        <div>
-          {/* <input
-            style={{ border: "1px solid black", width: "20rem" }}
-            type="text"
-            placeholder="EMAIL"
-          />
-          <h1>QUIZ</h1> */}
+        <div className="main-quiz-page">
           <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
             <input
               type="text"
               name="sendername"
-              style={{ border: "1px solid black" }}
+              value={data.name}
+              style={{ display: "none" }}
             />
-            <label>Email</label>
             <input
+              className="password"
               type="email"
               name="to"
-              style={{ border: "1px solid black" }}
+              placeholder="Kindly enter your correct Email Address"
+              onChange={(e) => setP(e.target.value)}
             />
-            {/* <label>Message</label> */}
-            <textarea
-              style={{ display: "none" }}
-              value={data.password}
-              name="message"
+            <input
+              type="submit"
+              value="Send"
+              onClick={() => {
+                if (p.length == 0) {
+                  toast({
+                    title: "Kindly enter correct Email Address.",
+                    status: "warning",
+                    duration: 5000,
+                    isClosable: true,
+                  });
+                  setEmailFlag(false);
+                } else {
+                  setEmailFlag(true);
+                }
+              }}
+              className="button-submit"
             />
-            <input type="submit" value="Send" />
           </form>
+          {emailFlag && <App2 />}
         </div>
       )}
     </div>

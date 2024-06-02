@@ -4,18 +4,22 @@ import * as ReactDOM from "react-dom/client";
 
 //COMPONENTS
 import App from "./App";
-import IntroPage from "./components/IntroPage";
 import Individual from "./components/Individual";
 
 //STYLE
 import "./styles/main.scss";
-import "./styles/introPage.scss";
+import "./styles/test.scss";
+import "./styles/individual.scss";
+
+//TALIWIND
+import "./styles/index.css";
 
 //MEDIA QUERY
 import "./styles/mediaQuery.scss";
 
 //REACT ROUTER DOM
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import GsapImplementation from "./components/GsapImplementation";
 
 const rootElement = document.getElementById("root");
 ReactDOM.createRoot(rootElement).render(
@@ -23,7 +27,7 @@ ReactDOM.createRoot(rootElement).render(
     <React.StrictMode>
       <ChakraProvider>
         <Routes>
-          <Route path="/" element={<IntroPage />} />
+          <Route path="/" element={<GsapImplementation />} />
           <Route path="/:id" element={<Individual />} />
         </Routes>
       </ChakraProvider>

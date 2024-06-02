@@ -1,0 +1,32 @@
+c1:#244855
+c2:#E64833
+c3:#874F41
+c4:#90AEAD
+c5:#FBE9D0
+
+1. Primary Color (Main Theme Color)
+#244855 (Dark Blue)
+Use this as the main color for your website. This can be for the header, footer, and main navigation bar. It can also be used for buttons and key interface elements to create a strong, cohesive look.
+2. Secondary Color (Accent Color)
+#E64833 (Red)
+Use this for call-to-action buttons, links, and important highlights. This color will stand out against the primary color and draw attention to key elements.
+3. Tertiary Color (Supporting Color)
+#874F41 (Brown)
+Use this as a supporting color for subheadings, border lines, or background sections that need to be distinguished from the primary color. It can add warmth and depth to your design.
+4. Background Color
+#FBE9D0 (Light Beige)
+Use this for the main background of your website. It's light and neutral, ensuring that text and other elements are easily readable and that the primary and secondary colors stand out.
+5. Neutral Color (Text and Subtle Elements)
+#90AEAD (Light Blue/Gray)
+Use this for body text, secondary text, and subtle interface elements like borders, separators, and background shades for cards or sections. This color provides a gentle contrast without overpowering the main elements.
+
+
+
+
+Example Usage:
+Header/Footer Background: #244855 (Dark Blue)
+Navigation Links: #FBE9D0 (Light Beige) with hover effect of #E64833 (Red)
+Main Buttons/CTAs: #E64833 (Red) with hover effect of #874F41 (Brown)
+Background: #FBE9D0 (Light Beige)
+Section Backgrounds: Alternate between #FBE9D0 (Light Beige) and #90AEAD (Light Blue/Gray)
+Text: #90AEAD (Light Blue/Gray) for general text, #874F41 (Brown) for headings and subheadings

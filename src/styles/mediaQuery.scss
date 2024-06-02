@@ -14,21 +14,6 @@
     }
   }
 }
-// @media screen and (max-width: 450px) {
-//   .parent {
-//     .main-intro {
-//       // grid-template-rows: repeat(9, 1fr);
-//       // grid-template-columns: repeat(1, 1fr);
-//       row-gap: 0.5rem;
-//       column-gap: 0.5rem;
-//     }
-//   }
-//   .card {
-//     width: fit-content;
-//     height: fit-content;
-//     padding: 1rem 1rem;
-//   }
-// }
 @media screen and (max-width: 385px) {
   .parent {
     .main-intro {
@@ -36,6 +21,15 @@
       grid-template-columns: repeat(1, 1fr);
       row-gap: 0.5rem;
       column-gap: 0.5rem;
+    }
+  }
+}
+@media screen and (max-width: 850px) {
+  .gsap1 {
+    .inside-gsap1 {
+      h1 {
+        font-size: 3rem;
+      }
     }
   }
 }

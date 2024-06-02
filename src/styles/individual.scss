@@ -1,0 +1,76 @@
+.individual {
+  background-color: #244855;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  .enter-password {
+    display: flex;
+    gap: 3rem;
+    .password {
+      border: 2px solid #e64833;
+      border-radius: 0.5rem;
+      width: 15rem;
+      height: 2.5rem;
+      padding: 0 1rem;
+      &:focus {
+        outline: none;
+        filter: drop-shadow(1px 1px 50px #e64833);
+      }
+      &:hover {
+        filter: drop-shadow(1px 1px 50px #e64833);
+      }
+    }
+    button {
+      border: 1px solid #874f41;
+      color: #fbe9d0;
+      background-color: #874f41;
+      width: 5rem;
+      border-radius: 0.5rem;
+      transition: all 0.1s linear;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  .main-quiz-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    form {
+      display: flex;
+      gap: 2rem;
+      .button-submit {
+        border: 1px solid #874f41;
+        color: #fbe9d0;
+        background-color: #874f41;
+        width: 5rem;
+        height: 2.5rem;
+        border-radius: 0.5rem;
+        transition: all 0.1s linear;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    .password {
+      border: 2px solid #e64833;
+      border-radius: 0.5rem;
+      width: 20rem;
+      height: 2.5rem;
+      padding: 0 1rem;
+      &:focus {
+        outline: none;
+        filter: drop-shadow(1px 1px 50px #e64833);
+      }
+      &:hover {
+        filter: drop-shadow(1px 1px 50px #e64833);
+      }
+    }
+  }
+}
