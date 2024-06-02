@@ -11,7 +11,9 @@ const IntroPage = () => {
         {dataSet.map((item, index) => (
           <li key={index}>
             <div className="card">
-              <img src={item.image} alt="" />
+              <Link to={`/${item.id}`}>
+                <img src={item.image} alt="" />
+              </Link>
               <Link to={`/${item.id}`}>
                 <div className="name">{item.name.toUpperCase()}</div>
               </Link>
