@@ -69,9 +69,17 @@ const Individual = () => {
           <h1>QUIZ</h1> */}
           <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
-            <input type="text" name="sendername" />
+            <input
+              type="text"
+              name="sendername"
+              style={{ border: "1px solid black" }}
+            />
             <label>Email</label>
-            <input type="email" name="to" />
+            <input
+              type="email"
+              name="to"
+              style={{ border: "1px solid black" }}
+            />
             {/* <label>Message</label> */}
             <textarea
               style={{ display: "none" }}
