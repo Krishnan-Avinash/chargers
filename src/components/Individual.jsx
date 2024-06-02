@@ -70,7 +70,7 @@ const Individual = () => {
           <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"
-              name="sendername"
+              name="to_name"
               value={data.name}
               style={{ display: "none" }}
             />

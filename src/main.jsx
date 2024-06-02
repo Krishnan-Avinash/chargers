@@ -3,7 +3,6 @@ import { ChakraProvider } from "@chakra-ui/react";
 import * as ReactDOM from "react-dom/client";
 
 //COMPONENTS
-import App from "./App";
 import Individual from "./components/Individual";
 
 //STYLE
