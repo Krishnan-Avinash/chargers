@@ -61,12 +61,12 @@ const Individual = () => {
 
       {flag && (
         <div>
-          <input
+          {/* <input
             style={{ border: "1px solid black", width: "20rem" }}
             type="text"
             placeholder="EMAIL"
           />
-          <h1>QUIZ</h1>
+          <h1>QUIZ</h1> */}
           <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input type="text" name="sendername" />
