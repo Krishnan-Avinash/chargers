@@ -15,6 +15,8 @@ export const dataSet = [
     name: "Maithrayee",
     image: my3,
     password: "random1",
+    description:
+      "Your incredible dance moves and choreography have always left us in awe. More than that, your friendship has been a true blessing. As you move forward, we’ll cherish the memories and miss your vibrant presence. Best of luck in all your future endeavors!",
     calledBy: [
       "my3",
       "mai3",
@@ -38,6 +40,8 @@ export const dataSet = [
     image: niranjan,
     password: "random2",
     calledBy: ["niru", "niranjan", "niran", "nir", "nira", "niranj", "niranja"],
+    description:
+      "Your dance skills have always been mesmerizing, and your friendship has been a true treasure. As a fantastic team player, you've made every moment memorable. We’ll miss your energy and camaraderie. Wishing you the best in all your future endeavors!",
   },
   {
     id: 3,
@@ -55,6 +59,8 @@ export const dataSet = [
       "shwet",
       "shwe",
     ],
+    description:
+      "You’ve been an incredible dancer and choreographer, but more than that, you've been a cherished friend and sister to us all. Your ability to lead and unite us as a team is unmatched. We deeply appreciate and love you for everything you’ve done. Farewell, and may your future be as bright as your amazing spirit! Ready 5..... ready 5..... ready 5.....",
   },
   {
     id: 4,
@@ -62,6 +68,8 @@ export const dataSet = [
     image: siraj,
     password: "random4",
     calledBy: ["siraj", "siraaj", "sir", "sira"],
+    description:
+      "You’ve dazzled us with your dance moves, especially on the Dippam Dappam! 😄 Your friendship and choreography have been nothing short of amazing. We’ll miss your energy and creativity. Farewell, and may your future be filled with endless rhythm and joy!",
   },
   {
     id: 5,
@@ -78,6 +86,8 @@ export const dataSet = [
       "vaishna",
       "vaishnav",
     ],
+    description:
+      "You've been a caring sister and friend, always looking out for us with such sweetness and responsibility. Your dance moves have inspired us all. We'll miss your warmth and kindness. Farewell, and may your future be as bright and wonderful as you are!",
   },
   {
     id: 6,
@@ -93,6 +103,8 @@ export const dataSet = [
       "karthi",
       "karthic",
     ],
+    description:
+      "Oh CKKK... You’ve been an extraordinary friend and an amazing person. Your dance moves and creativity have always left us in awe. Your positivity, humor, and kindness have brightened our days. As an amazing team person, we admire your dedication and passion in everything you do. Farewell, Karthick. We love you, and may your future be as vibrant and incredible as you are!",
   },
   {
     id: 7,
@@ -100,6 +112,8 @@ export const dataSet = [
     image: balu,
     password: "random7",
     calledBy: ["balu", "balls", "baalu", "ba", "bal", "baa", "baal"],
+    description:
+      "The one who can make us laugh (even at our most serious) with those amazing (not-so-funny) jokes!😄 But where you truly shine is on the dance floor. Your creativity with choreography, like that epic Pacha Ellai piece, is unforgettable. You're an incredible team player, and we'll miss having you around! We love you, and may your future be as vibrant and incredible as you are!",
   },
   {
     id: 8,
@@ -116,6 +130,8 @@ export const dataSet = [
       "shiris",
       "siris",
     ],
+    description:
+      "Our very own superstar!  Your talent on the dance floor is undeniable, both as a dancer and choreographer. You bring a supportive spirit to the team and your kindness shines through in your soft-spoken nature. You're an amazing friend, Sirish, and we love you! We wish you all the very best for the future! ✨",
   },
   {
     id: 9,
@@ -135,5 +151,7 @@ export const dataSet = [
       "gowr",
       "nambo",
     ],
+    description:
+      "Your soft-spoken nature and kindness make you a true friend and sister. You're incredibly sweet and always take care of everyone. We'll miss your caring presence, but know you'll shine on the dance floor wherever you go! All the best for the future! ✨",
   },
 ];

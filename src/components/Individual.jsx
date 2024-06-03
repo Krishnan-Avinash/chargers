@@ -6,15 +6,19 @@ import App2 from "./App2";
 
 //CHAKRA TOAST
 import { useToast } from "@chakra-ui/react";
+import MyCarousel from "./Carousel";
 
 const Individual = () => {
   const params = useParams();
   const [data, setData] = useState([]);
   const [pass, setPass] = useState("");
+
   const [flag, setFlag] = useState(false);
+
   const [emailFlag, setEmailFlag] = useState(false);
   useEffect(() => {
     setData(dataSet.find((item) => item.id == params.id));
+    console.log("DATA.DESCRIPTION ", data.description);
   }, []);
 
   const check = () => {
@@ -55,18 +59,36 @@ const Individual = () => {
   return (
     <div className="individual">
       {!flag && (
-        <div className="enter-password">
-          <input
-            className="password"
-            placeholder="Enter Password"
-            onChange={(e) => setPass(e.target.value)}
-          ></input>
-          <button onClick={check}>Submit</button>
-        </div>
+        <>
+          <div className="enter-password">
+            <input
+              className="password"
+              placeholder="Enter Password"
+              onChange={(e) => setPass(e.target.value)}
+            ></input>
+            <button onClick={check}>Submit</button>
+          </div>
+        </>
       )}
 
       {flag && (
         <div className="main-quiz-page">
+          {/* Carousel */}
+
+          <MyCarousel />
+
+          {/*-------------------------*/}
+
+          <div className="description">
+            <div className="top">
+              Dear{" "}
+              <span>{data.name ? data.name.toUpperCase() : data.name}</span>,
+            </div>
+            {data.description}
+          </div>
+
+          {/* EMAIL JS */}
+
           <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"
@@ -78,7 +100,7 @@ const Individual = () => {
               className="password"
               type="email"
               name="to"
-              placeholder="Kindly enter your correct Email Address"
+              placeholder="Kindly Enter Personal Email Address"
               onChange={(e) => setP(e.target.value)}
             />
             <input
@@ -100,6 +122,9 @@ const Individual = () => {
               className="button-submit"
             />
           </form>
+
+          {/*------------------------------------- */}
+
           {emailFlag && <App2 />}
         </div>
       )}

@@ -15,10 +15,13 @@
     "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@uidotdev/usehooks": "^2.4.1",
     "framer-motion": "^11.2.10",
     "gsap": "^3.12.5",
     "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.23.1",
     "sass": "^1.77.4"
   },

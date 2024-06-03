@@ -1,6 +1,6 @@
 .individual {
   background-color: #244855;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -8,8 +8,10 @@
   align-items: center;
   padding: 2rem 1rem;
   .enter-password {
+    z-index: 1;
     display: flex;
     gap: 3rem;
+    height: 100%;
     .password {
       border: 2px solid #e64833;
       border-radius: 0.5rem;
@@ -37,13 +39,15 @@
     }
   }
   .main-quiz-page {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     form {
       display: flex;
-      gap: 2rem;
+      gap: 1rem;
       .button-submit {
         border: 1px solid #874f41;
         color: #fbe9d0;
@@ -64,6 +68,8 @@
       width: 20rem;
       height: 2.5rem;
       padding: 0 1rem;
+      color: black;
+      font-size: 1.15rem;
       &:focus {
         outline: none;
         filter: drop-shadow(1px 1px 50px #e64833);
@@ -71,6 +77,23 @@
       &:hover {
         filter: drop-shadow(1px 1px 50px #e64833);
       }
+    }
+    .description {
+      .top {
+        font-size: 1.15rem;
+        span {
+          font-size: 2rem;
+          color: #fbe9d0;
+          font-weight: 700;
+        }
+      }
+      font-size: 1.15rem;
+      width: 80%;
+      margin: 1rem 0;
+      border: 1px solid #e64833;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      color: #fbe9d0;
     }
   }
 }
