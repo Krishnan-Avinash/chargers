@@ -4,21 +4,27 @@ import { dataSet } from "../dataset";
 import emailjs from "@emailjs/browser";
 import App2 from "./App2";
 
+//LOCATION
+import { useLocation } from "react-router-dom";
+
 //CHAKRA TOAST
 import { useToast } from "@chakra-ui/react";
 import MyCarousel from "./Carousel";
 
 const Individual = () => {
+  const location = useLocation();
+  const customProp = location.state && location.state.customProp;
+
   const params = useParams();
   const [data, setData] = useState([]);
   const [pass, setPass] = useState("");
 
-  const [flag, setFlag] = useState(false);
+  const [flag, setFlag] = useState(customProp);
 
   const [emailFlag, setEmailFlag] = useState(false);
   useEffect(() => {
     setData(dataSet.find((item) => item.id == params.id));
-    console.log("DATA.DESCRIPTION ", data.description);
+    // console.log("DATA.DESCRIPTION ", data.description);
   }, []);
 
   const check = () => {
@@ -51,7 +57,13 @@ const Individual = () => {
           console.log("SUCCESS!");
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.log("ERROR ", error);
+          toast({
+            title: "Kindly enter correct Email Address.",
+            status: "warning",
+            duration: 5000,
+            isClosable: true,
+          });
         }
       );
   };

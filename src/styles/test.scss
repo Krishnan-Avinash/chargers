@@ -1,8 +1,8 @@
-.test {
+.test2 {
   background-color: #244855;
   height: 100vh;
   width: 100vw;
-  display: flex;
+  display: none;
   flex-direction: column;
   //   justify-content: center;
   align-items: center;
@@ -38,6 +38,64 @@
             top: 0;
             left: 0.25%;
             right: 0.25%;
+          }
+        }
+      }
+    }
+  }
+}
+.test {
+  // background-color: #244855;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  .search {
+    font-size: 3rem;
+    color: #fbe9d0;
+    font-weight: 700;
+  }
+  .filteredResult {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    .flip-card {
+      .flip-card-inner {
+        .flip-card-back {
+          //   height: 120%;
+          img {
+            height: 80%;
+            border-radius: 1rem;
+            position: relative;
+            top: 0;
+            left: 0.25%;
+            right: 0.25%;
+          }
+          .title {
+            input {
+              width: 100%;
+              font-size: 1rem;
+              border-radius: 0.15rem;
+              padding: 0 0.5rem;
+              z-index: 100;
+              color: black;
+              &:focus {
+                border: 1px solid black;
+              }
+              margin-bottom: 1rem;
+            }
+            button {
+              font-size: 1rem;
+              position: absolute;
+              bottom: 2%;
+              left: 35%;
+            }
           }
         }
       }

@@ -33,3 +33,11 @@
     }
   }
 }
+@media screen and (max-width: 900px) {
+  .test2 {
+    display: flex;
+  }
+  .test {
+    display: none;
+  }
+}
