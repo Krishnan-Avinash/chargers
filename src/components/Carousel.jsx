@@ -28,7 +28,7 @@ const headingOptions = {
   size: "4xl",
 };
 const MyCarousel = ({ images }) => (
-  <div style={{ height: "20rem" }}>
+  <div style={{ height: "20rem" }} className="check-carousel">
     <Center
       display="flex"
       alignItems="center"
@@ -45,7 +45,7 @@ const MyCarousel = ({ images }) => (
         <Carousel
           autoPlay
           infiniteLoop
-          interval={5000}
+          interval={3000}
           showStatus={false}
           showThumbs={false}
           showArrows={false}
