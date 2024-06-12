@@ -45,16 +45,16 @@ export const dataSet = [
     ],
     // arrayImages: [mai1, mai2, mai3, mai4, mai5, mai6, mai7, mai8, mai9, mai10],
   },
-  {
-    id: 2,
-    name: "Niranjan",
-    image: niranjan,
-    password: "random2",
-    calledBy: ["niru", "niranjan", "niran", "nir", "nira", "niranj", "niranja"],
-    description:
-      "Your dance skills have always been mesmerizing, and your friendship has been a true treasure. As a fantastic team player, you've made every moment memorable. We’ll miss your energy and camaraderie. Wishing you the best in all your future endeavors!",
-    arrayImages: [niru1, niru2, niru3, niru4, niru5, niru6, niru7, niru8],
-  },
+  // {
+  //   id: 2,
+  //   name: "Niranjan",
+  //   image: niranjan,
+  //   password: "random2",
+  //   calledBy: ["niru", "niranjan", "niran", "nir", "nira", "niranj", "niranja"],
+  //   description:
+  //     "Your dance skills have always been mesmerizing, and your friendship has been a true treasure. As a fantastic team player, you've made every moment memorable. We’ll miss your energy and camaraderie. Wishing you the best in all your future endeavors!",
+  //   arrayImages: [niru1, niru2, niru3, niru4, niru5, niru6, niru7, niru8],
+  // },
   {
     id: 3,
     name: "sweta",
@@ -72,7 +72,7 @@ export const dataSet = [
       "shwe",
     ],
     description:
-      "You’ve been an incredible dancer and choreographer, but more than that, you've been a cherished friend and sister to us all. Your ability to lead and unite us as a team is unmatched. We deeply appreciate and love you for everything you’ve done. Farewell, and may your future be as bright as your amazing spirit! Ready 5..... ready 5..... ready 5.....",
+      "You’ve been an incredible dancer and choreographer, but more than that, you've been a cherished friend and sister to us all. Your ability to lead and unite us as a team is unmatched. We deeply appreciate and love you for everything you’ve done. Farewell, and may your future be as bright as your amazing spirit! Ready 5..... Ready 5..... Ready 5.....",
     // arrayImages: [
     //   sweet1,
     //   sweet2,
