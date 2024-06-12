@@ -1,5 +1,28 @@
 .welcome-parent {
+  background-color: #244855;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  transition: all 4s linear;
+  animation: checker2 4s linear 0s 1;
+  overflow: hidden;
+  img {
+  }
+}
+@keyframes checker2 {
+  0% {
+    // transform: translateX(-10000px);
+    transform: scale(4);
+    filter: blur(100px);
+    opacity: 0;
+  }
+  100% {
+    // transform: translateX(0);
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+  }
 }

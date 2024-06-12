@@ -87,7 +87,7 @@ const Individual = () => {
         <div className="main-quiz-page">
           {/* Carousel */}
 
-          <MyCarousel />
+          {data.arrayImages && <MyCarousel images={data.arrayImages} />}
 
           {/*-------------------------*/}
 
@@ -117,7 +117,7 @@ const Individual = () => {
             />
             <input
               type="submit"
-              value="Send"
+              value="Enter"
               onClick={() => {
                 if (p.length == 0) {
                   toast({

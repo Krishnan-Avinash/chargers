@@ -21,7 +21,6 @@ import "./styles/mediaQuery.scss";
 
 //REACT ROUTER DOM
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Lightning from "./components/Lightning";
 
 const rootElement = document.getElementById("root");
 ReactDOM.createRoot(rootElement).render(
@@ -32,7 +31,6 @@ ReactDOM.createRoot(rootElement).render(
           <Route path="/" element={<GsapImplementation />} />
           <Route path="/:id" element={<Individual />} />
           <Route path="/welcome" element={<Welcome />} />
-          <Route path="/light" element={<Lightning />} />
           {/* <Route path="/carousel" element={<Carousel />} /> */}
         </Routes>
       </ChakraProvider>

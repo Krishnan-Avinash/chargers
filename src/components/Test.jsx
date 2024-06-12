@@ -6,13 +6,15 @@ import { Link, useNavigate } from "react-router-dom";
 //DATASET
 import { dataSet } from "../dataset";
 
+//CHAKRA
+import { useToast } from "@chakra-ui/react";
+
 const Test = () => {
+  const toast = useToast();
   const navigate = useNavigate();
   const [filtered, setFiltered] = useState([]);
   const [search, setSearch] = useState("");
   const passwordRef = useRef("");
-
-  // const
 
   const filteredFunction = (e) => {
     setSearch(e.target.value);
@@ -23,12 +25,6 @@ const Test = () => {
     });
     setFiltered(temp);
   };
-
-  // const check4=()=>{
-  //   if(pass==filtered.password){
-  //     return Navigate
-  //   }
-  // }
 
   const [pass, setPass] = useState("");
   return (
@@ -72,32 +68,29 @@ const Test = () => {
                   <input
                     type="text"
                     style={{ color: "black" }}
-                    placeholder="Enter"
+                    placeholder="Password"
                     ref={passwordRef}
                     onChange={(e) => (passwordRef.current = e.target.value)}
-                    // onChange={(e) => setPass(e.target.value)}
                   />
                   <button
                     style={{ fontSize: "1.25rem" }}
                     onClick={() => {
-                      // console.log("Password ref ", passwordRef.current);
                       if (passwordRef.current == item.password) {
-                        {
-                          // console.log("NO ERROR");
-                        }
                         navigate(`/${item.id}`, {
                           state: { customProp: "false" },
                         });
                       } else {
-                        // console.log("Error");
+                        toast({
+                          title: "Kindly enter correct Password.",
+                          status: "warning",
+                          duration: 5000,
+                          isClosable: true,
+                        });
                       }
                     }}
                   >
                     Continue
                   </button>
-                  {/* {passwordRef == item.password && (
-                    <Navigate to={`/${item.id}`} />
-                  )} */}
                 </div>
               </div>
             </div>
