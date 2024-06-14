@@ -8,7 +8,13 @@ import App2 from "./App2";
 import { useLocation } from "react-router-dom";
 
 //CHAKRA TOAST
-import { useToast } from "@chakra-ui/react";
+import {
+  useToast,
+  Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,
+} from "@chakra-ui/react";
 import MyCarousel from "./Carousel";
 
 const Individual = () => {
@@ -134,6 +140,12 @@ const Individual = () => {
               className="button-submit"
             />
           </form>
+          <Alert status="warning">
+            <AlertIcon />
+            <AlertDescription>
+              Providing correct personal Email Address is extremely important
+            </AlertDescription>
+          </Alert>
 
           {/*------------------------------------- */}
 
