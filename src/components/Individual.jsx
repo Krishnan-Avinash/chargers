@@ -93,7 +93,11 @@ const Individual = () => {
         <div className="main-quiz-page">
           {/* Carousel */}
 
-          {data.arrayImages && <MyCarousel images={data.arrayImages} />}
+          {data.arrayImages ? (
+            <MyCarousel images={data.arrayImages} />
+          ) : (
+            <div>LOADING...</div>
+          )}
 
           {/*-------------------------*/}
 
