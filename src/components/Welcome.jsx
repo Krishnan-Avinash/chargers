@@ -57,7 +57,7 @@ const Welcome = () => {
           <img
             src={invitation_phone}
             alt=""
-            style={{ height: "40rem", width: "30rem" }}
+            style={{ height: "40rem", width: "30rem", objectFit: "contain" }}
             className="only-phone"
           />
         </div>
