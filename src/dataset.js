@@ -6,7 +6,7 @@ import siraj from "../assets/siraj.jpg";
 import vaish from "../assets/vaish.jpg";
 import karthick from "../assets/karthick.jpg";
 import balu from "../assets/balu.jpg";
-import sirish from "../assets/sirish.jpg";
+import sirish from "../assets/shirish_display.jpg";
 import namboo from "../assets/namboo.jpg";
 
 //GROUP IMAGES

@@ -3,6 +3,9 @@ import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import Test from "./Test";
 
+//GROUP IMAGE DISPLAY
+import groupImg from "../../assets/display_group_jp.jpg";
+
 const GsapImplementation = () => {
   const comp = useRef(null);
 
@@ -44,18 +47,33 @@ const GsapImplementation = () => {
         id="intro-slider"
         className="inside-gsap1 tempPage h-full p-10 bg-gray-50 absolute top-0 left-0 z-10 w-full flex flex-col gap-10 tracking-tight"
       >
-        <h1 id="title-1" className="introPageText text-7xl">
-          Hello
-        </h1>
-        <h1 id="title-2" className="introPageText text-7xl">
-          How Are You Doing??
-        </h1>
-        <h1 id="title-3" className="introPageText text-7xl">
+        <div className="major-flex">
+          <div id="title-1" className="major-flex-left">
+            <br />
+            <h1 id="title-1" className="introPageText text-6xl">
+              Hello
+            </h1>
+            <br />
+            <h1 id="title-2" className="introPageText text-6xl">
+              12.0 SENIORS
+            </h1>
+            <br />
+            {/* <h1 id="title-3" className="introPageText text-7xl">
           Welcome To This Platform
-        </h1>
-        <h1 id="title-4" className="introPageText text-7xl">
-          Get Ready For A Small Quiz
-        </h1>
+        </h1> */}
+            <h1 id="title-4" className="introPageText text-6xl">
+              Get Ready For A Small Quiz
+            </h1>
+          </div>
+          <div className="major-flex-right">
+            <img
+              src={groupImg}
+              id="title-4"
+              className="test-img-display"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
       <div className="introPage h-full flex bg-gray-950 justify-center place-items-center">
         {/* <h1 id="welcome" className="text-9xl font-bold text-gray-100">
