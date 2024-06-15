@@ -33,7 +33,8 @@ const Welcome = () => {
         src="https://res.cloudinary.com/dhkkz35jy/video/upload/v1718448159/IMG_0441_gcbtsb.mp4"
         alt=""
         autoPlay
-        style={{ height: "40rem", width: "30rem" }}
+        muted
+        style={{ height: "30rem", width: "20rem" }}
         controls
       />
       <Alert status="success">
