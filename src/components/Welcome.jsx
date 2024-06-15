@@ -23,25 +23,41 @@ import invitation_pic from "../../assets/invitation/invitation_img.jpg";
 const Welcome = () => {
   const { width, height } = useWindowSize();
   return (
-    <div className="welcome-parent">
-      {/* <img
-        src={invitation_pic}
-        alt=""
-        style={{ height: "30rem", width: "20rem" }}
-      /> */}
-      <video
-        src="https://res.cloudinary.com/dhkkz35jy/video/upload/v1718448159/IMG_0441_gcbtsb.mp4"
-        alt=""
-        autoPlay
-        muted
-        style={{ height: "30rem", width: "20rem" }}
-        controls
-      />
-      <Alert status="success">
-        <AlertIcon />
-        An Email for the same has been sent on you entered Email Address
-      </Alert>
-      <Confetti width={width} height={height} />;
+    <div className="main-welcome">
+      <div className="welcome-parent">
+        <div className="welcome-parent-left">
+          {/* <img
+            className="only-phone"
+            src={invitation_pic}
+            alt=""
+            style={{ height: "100%" }}
+          /> */}
+          <video
+            src="https://res.cloudinary.com/dhkkz35jy/video/upload/v1718448159/IMG_0441_gcbtsb.mp4"
+            alt=""
+            autoPlay
+            muted
+            loop
+            style={{ height: "30rem", width: "20rem" }}
+            controls
+            className="only-laptop"
+          />
+        </div>
+        <div className="welcome-parent-right">
+          <h1>Hello</h1>
+          <h1>Join us on date </h1>
+          <a href="www.google.com" target="_blank">
+            📍Click here to get exact location
+          </a>
+        </div>
+      </div>
+      <div className="bottom">
+        <Alert status="success" className="Alert">
+          <AlertIcon />
+          An Email for the same has been sent on you entered Email Address
+        </Alert>
+        <Confetti width={width} height={height} />;
+      </div>
     </div>
   );
 };

@@ -53,3 +53,36 @@
     }
   }
 }
+@media screen and (max-width: 900px) {
+  .main-welcome {
+    .welcome-parent {
+      flex-direction: column;
+      .welcome-parent-left {
+        width: 100%;
+
+        //--------------------
+        //--------------------
+
+        // .only-laptop {
+        //   display: none;
+        // }
+
+        //--------------------
+        //--------------------
+
+        //--------------
+        //--------------
+
+        // .only-phone {
+        //   display: flex;
+        // }
+
+        //--------------
+        //--------------
+      }
+      // .welcome-parent-right {
+      //   display: none;
+      // }
+    }
+  }
+}
