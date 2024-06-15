@@ -17,6 +17,8 @@ import {
 // import invitation from "../../assets/invitation/IMG_0441.MP4";
 import invitation_pic from "../../assets/invitation/invitation_img.jpg";
 
+import invitation_phone from "../../assets/invitation/Invite confetti 2_phone.gif";
+
 //VIDEO
 // import vid from ""
 
@@ -42,11 +44,27 @@ const Welcome = () => {
             controls
             className="only-laptop"
           />
+          {/* <video
+            src={invitation_phone}
+            alt=""
+            autoPlay
+            muted
+            // loop
+            style={{ height: "30rem", width: "20rem" }}
+            controls
+            className="only-phone"
+          /> */}
+          <img
+            src={invitation_phone}
+            alt=""
+            style={{ height: "30rem", width: "20rem" }}
+            className="only-phone"
+          />
         </div>
         <div className="welcome-parent-right">
           <h1>Hello</h1>
           <h1>Join us on date </h1>
-          <a href="www.google.com" target="_blank">
+          <a href="https://www.google.com/" target="_blank">
             📍Click here to get exact location
           </a>
         </div>

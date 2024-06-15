@@ -97,7 +97,7 @@ export const dataSet = [
     id: 1,
     name: "Maithrayee",
     image: my3,
-    password: "X4L9P2",
+    password: "Powerhouse",
     description:
       "Your incredible dance moves and choreography have always left us in awe. More than that, your friendship has been a true blessing. As you move forward, we’ll cherish the memories and miss your vibrant presence. Best of luck in all your future endeavors!",
     calledBy: [
@@ -132,7 +132,7 @@ export const dataSet = [
     id: 3,
     name: "sweta",
     image: sweta,
-    password: "B7D3K1",
+    password: "Pickandthrow",
     calledBy: [
       "sweety",
       "sweta",
@@ -167,7 +167,7 @@ export const dataSet = [
     id: 4,
     name: "Siraj",
     image: siraj,
-    password: "Q2F8M5",
+    password: "Dippamdapam",
     calledBy: ["siraj", "siraaj", "sir", "sira"],
     description:
       "You’ve dazzled us with your dance moves, especially on the Dippam Dappam! 😄 Your friendship and choreography have been nothing short of amazing. We’ll miss your energy and creativity. Farewell, and may your future be filled with endless rhythm and joy!",
@@ -192,7 +192,7 @@ export const dataSet = [
     id: 5,
     name: "Vaish",
     image: vaish,
-    password: "L6T9C3",
+    password: "Kannurendu",
     calledBy: [
       "vaish",
       "vyshnavi",
@@ -225,7 +225,7 @@ export const dataSet = [
     id: 6,
     name: "Karthick",
     image: karthick,
-    password: "P4Z7X1",
+    password: "Simp",
     calledBy: [
       "karthick",
       "karthik",
@@ -258,7 +258,7 @@ export const dataSet = [
     id: 7,
     name: "Balu",
     image: balu,
-    password: "J3V5N2",
+    password: "BaluMama",
     calledBy: ["balu", "balls", "baalu", "ba", "bal", "baa", "baal"],
     description:
       "The one who can make us laugh (even at our most serious) with those amazing (not-so-funny) jokes!😄 But where you truly shine is on the dance floor. Your creativity with choreography, like that epic Pacha Ellai piece, is unforgettable. You're an incredible team player, and we'll miss having you around! We love you, and may your future be as vibrant and incredible as you are!",
@@ -282,7 +282,7 @@ export const dataSet = [
     id: 8,
     name: "Shirish",
     image: sirish,
-    password: "H1R8W6",
+    password: "Mr.WorldWide",
     calledBy: [
       "shirish",
       "sirish",
@@ -316,7 +316,7 @@ export const dataSet = [
     id: 9,
     name: "Namboooo",
     image: namboo,
-    password: "G5Y2K9",
+    password: "Sundari",
     calledBy: [
       "gowri",
       "gouri",
