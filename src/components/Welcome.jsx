@@ -23,7 +23,7 @@ import invitation_phone from "../../assets/invitation/Invite confetti 2_phone.gi
 // import vid from ""
 
 const Welcome = () => {
-  const { width, height } = useWindowSize();
+  // const { width, height } = useWindowSize();
   return (
     <div className="main-welcome">
       <div className="welcome-parent">
@@ -57,7 +57,7 @@ const Welcome = () => {
           <img
             src={invitation_phone}
             alt=""
-            style={{ height: "30rem", width: "20rem" }}
+            style={{ height: "40rem", width: "30rem" }}
             className="only-phone"
           />
         </div>
@@ -74,7 +74,7 @@ const Welcome = () => {
           <AlertIcon />
           An Email for the same has been sent on you entered Email Address
         </Alert>
-        <Confetti width={width} height={height} />;
+        {/* <Confetti width={width} height={height} />; */}
       </div>
     </div>
   );
