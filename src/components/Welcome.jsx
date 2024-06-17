@@ -104,7 +104,7 @@ const Welcome = () => {
             className="only-phone"
           /> */}
           <img
-            src={invitation_phone}
+            src={img_gif_confetti}
             alt=""
             style={{ height: "40rem", width: "30rem", objectFit: "contain" }}
             className="only-phone"
