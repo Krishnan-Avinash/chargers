@@ -42,7 +42,7 @@ const GsapImplementation = () => {
   }, []);
 
   return (
-    <div className="gsap1 relative" ref={comp}>
+    <div className="gsap1 relative fontfamilyrajdhani" ref={comp}>
       <div
         id="intro-slider"
         className="inside-gsap1 tempPage h-full p-10 bg-gray-50 absolute top-0 left-0 z-10 w-full flex flex-col gap-10 tracking-tight"

@@ -10,10 +10,14 @@
   align-items: center;
   padding: 2rem 1rem;
   .search {
+    font-family: "Rajdhani", sans-serif;
+
     font-size: 3rem;
     color: #fbe9d0;
   }
   input {
+    font-family: "Rajdhani", sans-serif;
+
     border: 2px solid #e64833;
     border-radius: 0.5rem;
     width: 15rem;
@@ -28,10 +32,18 @@
     }
   }
   .filteredResult {
+    font-family: "Rajdhani", sans-serif;
+
     margin-top: 1rem;
     .flip-card {
+      font-family: "Rajdhani", sans-serif;
+
       .flip-card-inner {
+        font-family: "Rajdhani", sans-serif;
+
         .flip-card-back {
+          font-family: "Rajdhani", sans-serif;
+
           //   height: 120%;
           img {
             height: 80%;
@@ -58,11 +70,15 @@
   align-items: center;
   padding: 2rem 1rem;
   .search {
+    font-family: "Rajdhani", sans-serif;
+
     font-size: 3rem;
     color: #fbe9d0;
     font-weight: 700;
   }
   .filteredResult {
+    font-family: "Rajdhani", sans-serif;
+
     margin-top: 2rem;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -70,8 +86,14 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     .flip-card {
+      font-family: "Rajdhani", sans-serif;
+
       .flip-card-inner {
+        font-family: "Rajdhani", sans-serif;
+
         .flip-card-back {
+          font-family: "Rajdhani", sans-serif;
+
           //   height: 120%;
           img {
             height: 80%;
@@ -82,7 +104,11 @@
             right: 0.25%;
           }
           .title {
+            font-family: "Rajdhani", sans-serif;
+
             input {
+              font-family: "Rajdhani", sans-serif;
+
               width: 100%;
               font-size: 1rem;
               border-radius: 0.15rem;
@@ -95,6 +121,8 @@
               margin-bottom: 1rem;
             }
             button {
+              font-family: "Rajdhani", sans-serif;
+
               font-size: 1rem;
               position: absolute;
               bottom: 2%;

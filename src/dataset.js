@@ -104,6 +104,7 @@ export const dataSet = [
       "maithry",
       "maithrye",
       "m",
+      "ma",
       "mai",
       "mait",
       "maith",
@@ -114,16 +115,6 @@ export const dataSet = [
     ],
     arrayImages: [mai1, mai2, mai3, mai4, group2, mai5, group1, group3],
   },
-  // {
-  //   id: 2,
-  //   name: "Niranjan",
-  //   image: niranjan,
-  //   password: "random2",
-  //   calledBy: ["niru", "niranjan", "niran", "nir", "nira", "niranj", "niranja"],
-  //   description:
-  //     "Your dance skills have always been mesmerizing, and your friendship has been a true treasure. As a fantastic team player, you've made every moment memorable. We’ll miss your energy and camaraderie. Wishing you the best in all your future endeavors!",
-  //   arrayImages: [niru1, niru2, niru3, niru4, niru5, niru6, niru7, niru8],
-  // },
   {
     id: 3,
     name: "sweta",
@@ -153,10 +144,6 @@ export const dataSet = [
       sweta6,
       group1,
       group3,
-      // sweet7,
-      // sweet8,
-      // sweet9,
-      // sweet10,
     ],
   },
   {
@@ -177,11 +164,6 @@ export const dataSet = [
       siraj5,
       group1,
       group3,
-      // siraaj6,
-      // siraaj7,
-      // siraaj8,
-      // siraaj9,
-      // siraaj10,
     ],
   },
   {
@@ -210,11 +192,6 @@ export const dataSet = [
       vaish4,
       group1,
       group3,
-      // vaaish6,
-      // vaaish7,
-      // vaaish8,
-      // vaaish9,
-      // vaaish10,
     ],
   },
   {
@@ -244,10 +221,6 @@ export const dataSet = [
       karthick6,
       group1,
       group3,
-      // kaarthick7,
-      // kaarthick8,
-      // kaarthick9,
-      // kaarthick10,
     ],
   },
   {
@@ -269,9 +242,6 @@ export const dataSet = [
       balu7,
       group1,
       group3,
-      // baalu8,
-      // baalu9,
-      // baalu10,
     ],
   },
   {
@@ -292,7 +262,6 @@ export const dataSet = [
     description:
       "Our very own superstar!  Your talent on the dance floor is undeniable, both as a dancer and choreographer. You bring a supportive spirit to the team and your kindness shines through in your soft-spoken nature. You're an amazing friend, Sirish, and we love you! We wish you all the very best for the future! ✨",
     arrayImages: [
-      // sirish00,
       sirish01,
       sirish1,
       sirish2,
@@ -302,10 +271,6 @@ export const dataSet = [
       sirish5,
       group1,
       group3,
-      // sirish7,
-      // sirish8,
-      // sirish9,
-      // sirish10,
     ],
   },
   {
@@ -340,8 +305,6 @@ export const dataSet = [
       group2,
       group1,
       group3,
-      // namb9,
-      // namb10,
     ],
   },
 ];

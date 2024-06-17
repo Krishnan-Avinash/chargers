@@ -22,8 +22,6 @@ import { vid, img_gif_confetti } from "../dataset";
 
 //VIDEO
 import vid2 from "../../assets/invitation/recent_video_srinath.mp4";
-//VIDEO
-// import vid from ""
 
 const Welcome = () => {
   // const { width, height } = useWindowSize();
@@ -116,13 +114,14 @@ const Welcome = () => {
 
             <div class="author">— Chargers⚡</div>
             <div className="right-box-container">
-              <p class="date-time">One Name</p>
-              <p class="date-time">One Team</p>
-              <p class="date-time">One Love</p>
+              <p class="date-time">One Name | One Team | One Love</p>
             </div>
             <hr className="horizontal-line" />
           </div>
-          <a href="" target="_blank">
+          <a
+            href="https://maps.app.goo.gl/hrEoMscBoiijyzZK8?g_st=iw"
+            target="_blank"
+          >
             <div className="location-link">
               📍 Click here to get exact location
             </div>

@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .main-welcome {
+  position: relative;
+  background-image: url("../../assets/chargers\ logo.png");
+  background-repeat: no-repeat;
+  background-position: 47%;
+  background-size: 20%;
+
+  z-index: 100;
   font-family: "Poppins" !important;
 
   display: flex;
@@ -36,6 +43,7 @@
       width: 50%;
     }
     .welcome-parent-right {
+      background-color: transparent;
       height: 100%;
       display: flex;
       justify-content: center;
@@ -51,10 +59,18 @@
           color: #fbe9d0;
           text-shadow: 5px 5px 10px hsl(7, 78%, 55%);
           margin: 0.5rem 0;
+          animation: checker2 2s linear 4s 1;
+          animation-fill-mode: forwards;
+          opacity: 0;
+        }
+        .right-box-container {
+          opacity: 0;
+          animation: checker4 5s linear 4s 1;
+          animation-fill-mode: forwards;
         }
       }
       .location-link {
-        animation: checker2 7s linear 4s 1;
+        animation: checker2 7s linear 8s 1;
         animation-fill-mode: forwards;
         opacity: 0;
 
@@ -83,8 +99,38 @@
       margin-top: -1rem;
     }
   }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../assets/chargers\ logo.png");
+    background-repeat: no-repeat;
+    background-position: 47%;
+    background-size: 20%;
+    opacity: 0; /* Adjust the opacity as needed */
+    // z-index: -1;
+  }
 }
 @keyframes checker2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes checker3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes checker4 {
   0% {
     opacity: 0;
   }
