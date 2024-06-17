@@ -71,7 +71,7 @@ const Welcome = () => {
             autoPlay
             muted
             // loop
-            style={{ height: "30rem", width: "20rem" }}
+            style={{ height: "100%", width: "100%" }}
             controls
             className="only-phone"
             loading="eager"
@@ -92,7 +92,7 @@ const Welcome = () => {
           <img
             src={img_gif_confetti}
             alt=""
-            style={{ height: "40rem", width: "30rem", objectFit: "contain" }}
+            style={{ height: "100%", width: "100%", objectFit: "contain" }}
             className="only-laptop"
             id="hide"
           />
