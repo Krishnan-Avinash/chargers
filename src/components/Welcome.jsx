@@ -20,8 +20,8 @@ import {
 // import invitation from "../../assets/invitation/IMG_0441.MP4";
 import invitation_pic from "../../assets/invitation/invitation_img.jpg";
 
-import invitation_phone from "../../assets/invitation/Invite confetti 2_phone.gif";
-import { vid } from "../dataset";
+// import invitation_phone from "../../assets/invitation/Invite confetti 2_phone.gif";
+import { vid, img_gif_confetti } from "../dataset";
 
 //VIDEO
 // import vid from ""
@@ -85,7 +85,7 @@ const Welcome = () => {
             id="image-animation"
           />
           <img
-            src={invitation_phone}
+            src={img_gif_confetti}
             alt=""
             // autoPlay
             // muted
@@ -94,6 +94,7 @@ const Welcome = () => {
             // controls
             className="only-laptop"
             id="hide"
+            loading="eager"
           />
           {/* <video
             src={invitation_phone}

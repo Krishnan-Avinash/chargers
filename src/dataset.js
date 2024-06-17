@@ -352,3 +352,6 @@ export const dataSet = [
 
 export const vid =
   "https://res.cloudinary.com/dhkkz35jy/video/upload/v1718448159/IMG_0441_gcbtsb.mp4";
+
+import img_gif_confetti from "../assets/invitation/Invite confetti 2_phone.gif";
+export const gif_confetti = img_gif_confetti;
