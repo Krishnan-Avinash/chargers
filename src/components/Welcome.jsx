@@ -73,7 +73,7 @@ const Welcome = () => {
             // loop
             style={{ height: "30rem", width: "20rem" }}
             controls
-            className="only-laptop"
+            className="only-phone"
             loading="eager"
             id="image-animation"
           />
@@ -93,7 +93,7 @@ const Welcome = () => {
             src={img_gif_confetti}
             alt=""
             style={{ height: "40rem", width: "30rem", objectFit: "contain" }}
-            className="only-phone"
+            className="only-laptop"
             id="hide"
           />
         </div>
