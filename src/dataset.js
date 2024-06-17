@@ -14,16 +14,6 @@ import group1 from "../assets/group-common/group1.png";
 import group2 from "../assets/group-common/group2.png";
 import group3 from "../assets/group-common/group3.png";
 
-//NIRANJAN IMAGES
-import niru1 from "../assets/Niranjan/niranjan1.jpg";
-import niru2 from "../assets/Niranjan/niranjan2.jpg";
-import niru3 from "../assets/Niranjan/niranjan3.jpg";
-import niru4 from "../assets/Niranjan/niranjan4.jpg";
-import niru5 from "../assets/Niranjan/niranjan5.jpg";
-import niru6 from "../assets/Niranjan/niranjan6.jpg";
-import niru7 from "../assets/Niranjan/niranjan7.jpg";
-import niru8 from "../assets/Niranjan/niranjan8.jpg";
-
 //SIRISH IMAGES
 import sirish00 from "../assets/Shirish/sirish00.jpg";
 import sirish01 from "../assets/Shirish/sirish01.png";
@@ -34,63 +24,63 @@ import sirish4 from "../assets/Shirish/sirish4.jpg";
 import sirish5 from "../assets/Shirish/sirish5.png";
 
 //SIRAJ IMAGES
-import siraj00 from "../assets/Siraj/siraj00.png";
-import siraj1 from "../assets/Siraj/siraj1.jpg";
-import siraj2 from "../assets/Siraj/siraj2.jpg";
-import siraj3 from "../assets/Siraj/siraj3.jpg";
-import siraj4 from "../assets/Siraj/siraj4.png";
-import siraj5 from "../assets/Siraj/siraj5.png";
+import siraj00 from "../assets/Siraj/siraj00_resized.jpg";
+import siraj1 from "../assets/Siraj/siraj1_resized.jpg";
+import siraj2 from "../assets/Siraj/siraj2_resized.jpg";
+import siraj3 from "../assets/Siraj/siraj3_resized.jpg";
+import siraj4 from "../assets/Siraj/siraj4_resized.jpg";
+import siraj5 from "../assets/Siraj/siraj5_resized.jpg";
 
 //SWETA IMAGES
-import sweta00 from "../assets/Sweta/sweta00.png";
-import sweta1 from "../assets/Sweta/sweta1.jpg";
-import sweta2 from "../assets/Sweta/sweta2.jpg";
-import sweta3 from "../assets/Sweta/sweta3.jpg";
-import sweta4 from "../assets/Sweta/sweta4.jpg";
-import sweta5 from "../assets/Sweta/sweta5.jpg";
-import sweta6 from "../assets/Sweta/sweta6.jpg";
+import sweta00 from "../assets/Sweta/sweta00_resized.jpg";
+import sweta1 from "../assets/Sweta/sweta1_resized.jpg";
+import sweta2 from "../assets/Sweta/sweta2_resized.jpg";
+import sweta3 from "../assets/Sweta/sweta3_resized.jpg";
+import sweta4 from "../assets/Sweta/sweta4_resized.jpg";
+import sweta5 from "../assets/Sweta/sweta5_resized.jpg";
+import sweta6 from "../assets/Sweta/sweta6_resized.jpg";
 
 //VAISH IMAGES
-import vaish00 from "../assets/Vaish/vaish00.png";
-import vaish1 from "../assets/Vaish/vaish1.jpg";
-import vaish2 from "../assets/Vaish/vaish2.jpg";
-import vaish3 from "../assets/Vaish/vaish3.jpg";
-import vaish4 from "../assets/Vaish/vaish4.jpg";
+import vaish00 from "../assets/Vaish/vaish00_resized.jpg";
+import vaish1 from "../assets/Vaish/vaish1_resized.jpg";
+import vaish2 from "../assets/Vaish/vaish2_resized.jpg";
+import vaish3 from "../assets/Vaish/vaish3_resized.jpg";
+import vaish4 from "../assets/Vaish/vaish4_resized.jpg";
 
 //BALU IMAGES
-import balu1 from "../assets/balu/balu1.png";
-import balu2 from "../assets/balu/balu2.png";
-import balu3 from "../assets/balu/balu3.png";
-import balu4 from "../assets/balu/balu4.png";
-import balu5 from "../assets/balu/balu5.png";
-import balu6 from "../assets/balu/balu6.png";
-import balu7 from "../assets/balu/balu7.png";
+import balu1 from "../assets/balu/balu1_resized.jpg";
+import balu2 from "../assets/balu/balu2_resized.jpg";
+import balu3 from "../assets/balu/balu3_resized.jpg";
+import balu4 from "../assets/balu/balu4_resized.jpg";
+import balu5 from "../assets/balu/balu5_resized.jpg";
+import balu6 from "../assets/balu/balu6_resized.jpg";
+import balu7 from "../assets/balu/balu7_resized.jpg";
 
 //NAMBOO IMAGES
-import namboo1 from "../assets/gowri/namboo1.png";
-import namboo2 from "../assets/gowri/namboo2.png";
-import namboo3 from "../assets/gowri/namboo3.png";
-import namboo4 from "../assets/gowri/namboo4.png";
-import namboo5 from "../assets/gowri/namboo5.png";
+import namboo1 from "../assets/gowri/namboo1_resized.jpg";
+import namboo2 from "../assets/gowri/namboo2_resized.jpg";
+import namboo3 from "../assets/gowri/namboo3_resized.jpg";
+import namboo4 from "../assets/gowri/namboo4_resized.jpg";
+import namboo5 from "../assets/gowri/namboo5_resized.jpg";
 import namboo6 from "../assets/gowri/namboo6.png";
-import namboo7 from "../assets/gowri/namboo7.png";
+import namboo7 from "../assets/gowri/namboo7_resized.jpg";
 import namboo8 from "../assets/gowri/namboo8.png";
 
 //KARTHICK IMAGES
-import karthick00 from "../assets/karthick/karthick00.png";
-import karthick1 from "../assets/karthick/karthick1.png";
-import karthick2 from "../assets/karthick/karthick2.png";
+import karthick00 from "../assets/karthick/karthick00_resized.jpg";
+import karthick1 from "../assets/karthick/karthick1_resized.jpg";
+import karthick2 from "../assets/karthick/karthick2_resized.jpg";
 import karthick3 from "../assets/karthick/karthick3.png";
-import karthick4 from "../assets/karthick/karthick4.png";
-import karthick5 from "../assets/karthick/karthick5.png";
-import karthick6 from "../assets/karthick/karthick6.png";
+import karthick4 from "../assets/karthick/karthick4_resized.jpg";
+import karthick5 from "../assets/karthick/karthick5_resized.jpg";
+import karthick6 from "../assets/karthick/karthick6_resized.jpg";
 
 //MAITHRAYEE IMAGES
-import mai1 from "../assets/Maithrayee/mai1.png";
-import mai2 from "../assets/Maithrayee/mai2.png";
-import mai3 from "../assets/Maithrayee/mai3.png";
-import mai4 from "../assets/Maithrayee/mai4.png";
-import mai5 from "../assets/Maithrayee/mai5.png";
+import mai1 from "../assets/Maithrayee/mai1_resized.jpg";
+import mai2 from "../assets/Maithrayee/mai2_resized.jpg";
+import mai3 from "../assets/Maithrayee/mai3_resized.jpg";
+import mai4 from "../assets/Maithrayee/mai4_resized.jpg";
+import mai5 from "../assets/Maithrayee/mai5_resized.jpg";
 
 export const dataSet = [
   {
@@ -353,5 +343,5 @@ export const dataSet = [
 export const vid =
   "https://res.cloudinary.com/dhkkz35jy/video/upload/v1718448159/IMG_0441_gcbtsb.mp4";
 
-import img_gif_confetti from "../assets/invitation/Invite confetti 2_phone.gif";
-export const gif_confetti = img_gif_confetti;
+import img_gif_confetti_1 from "../assets/invitation/Invite confetti 2_phone.gif";
+export const img_gif_confetti = img_gif_confetti_1;

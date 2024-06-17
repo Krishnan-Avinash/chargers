@@ -5,9 +5,6 @@ import Confetti from "react-confetti";
 //GSAP
 import gsap from "gsap";
 
-//IMAGE IMPORT
-import img1 from "../../assets/test1.jpg";
-
 //CHAKRA UI IMPORTS
 import {
   Alert,
