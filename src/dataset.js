@@ -13,9 +13,9 @@ import namboo from "../assets/namboo.jpg";
 import img_gif_confetti_1 from "../assets/invitation/Invite confetti 2_phone_less_size.gif";
 
 //GROUP IMAGES
-import group1 from "../assets/group-common/group1.png";
-import group2 from "../assets/group-common/group2.png";
-import group3 from "../assets/group-common/group3.png";
+import group1 from "../assets/group-common/group1_resized.jpg";
+import group2 from "../assets/group-common/group2_resized.jpg";
+import group3 from "../assets/group-common/group3_resized.jpg";
 
 //SIRISH IMAGES
 import sirish00 from "../assets/Shirish/sirish00.jpg";
@@ -73,7 +73,7 @@ import namboo8 from "../assets/gowri/namboo8.png";
 import karthick00 from "../assets/karthick/karthick00_resized.jpg";
 import karthick1 from "../assets/karthick/karthick1_resized.jpg";
 import karthick2 from "../assets/karthick/karthick2_resized.jpg";
-import karthick3 from "../assets/karthick/karthick3.png";
+import karthick3 from "../assets/karthick/karthick3_resized.jpg";
 import karthick4 from "../assets/karthick/karthick4_resized.jpg";
 import karthick5 from "../assets/karthick/karthick5_resized.jpg";
 import karthick6 from "../assets/karthick/karthick6_resized.jpg";
