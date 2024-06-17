@@ -349,3 +349,6 @@ export const dataSet = [
     ],
   },
 ];
+
+export const vid =
+  "https://res.cloudinary.com/dhkkz35jy/video/upload/v1718448159/IMG_0441_gcbtsb.mp4";

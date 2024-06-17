@@ -1,47 +1,50 @@
 [
     {
-      "question": "What is the largest planet in our solar system?",
+      "question": "Whose counting style is this Ready 5....Ready 5......Ready 5?",
       "answerOptions": [
-        {"text": "Saturn", "isCorrect": false},
-        {"text": "Mars", "isCorrect": false},
-        {"text": "Earth", "isCorrect": false},
-        {"text": "Jupiter", "isCorrect": true}
+        {"text": "Gowri", "isCorrect": false},
+        {"text": "Sweta", "isCorrect": true},
+        {"text": "Shirish", "isCorrect": false}
       ]
     },
     {
-      "question": "What is the tallest mountain in the world?",
+      "question": "Which seniors catchphrase are these \"Hot burning pant\", \"Room for improvement\"?",
       "answerOptions": [
-        {"text": "Mount Everest", "isCorrect": true},
-        {"text": "K2", "isCorrect": false},
-        {"text": "Kangchenjunga", "isCorrect": false},
-        {"text": "Lhotse", "isCorrect": false}
+        {"text": "Davya", "isCorrect": true},
+        {"text": "Krishna", "isCorrect": false},
+        {"text": "Charutha", "isCorrect": false}
       ]
     },
     {
-      "question": "Which country is home to the Great Wall of China?",
+      "question": "Which of the following has a very strong connection with the song \"Dippam Dappam\"?",
       "answerOptions": [
-        {"text": "China", "isCorrect": true},
-        {"text": "Japan", "isCorrect": false},
-        {"text": "Korea", "isCorrect": false},
-        {"text": "India", "isCorrect": false}
+        {"text": "Siraj", "isCorrect": true},
+        {"text": "Balu", "isCorrect": false},
+        {"text": "Niranjan", "isCorrect": false}
       ]
     },
     {
-      "question": "What is the capital of France?",
+      "question": "Who was the Team Head of Chargers 10.0?",
       "answerOptions": [
-        {"text": "London", "isCorrect": false},
-        {"text": "Berlin", "isCorrect": false},
-        {"text": "Paris", "isCorrect": true},
-        {"text": "Rome", "isCorrect": false}
+        {"text": "Pranay", "isCorrect": false},
+        {"text": "Ranjith", "isCorrect": false},
+        {"text": "Gautham", "isCorrect": true}
       ]
     },
     {
-      "question": "What is the chemical formula for water?",
+      "question": "Who is the oldest among these?",
       "answerOptions": [
-        {"text": "H2O", "isCorrect": true},
-        {"text": "CO2", "isCorrect": false},
-        {"text": "NaCl", "isCorrect": false},
-        {"text": "NH3", "isCorrect": false}
+        {"text": "Balu", "isCorrect": true},
+        {"text": "Niranjan", "isCorrect": false},
+        {"text": "Karthick", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "Who is known for their never-ending collection of dad jokes?",
+      "answerOptions": [
+        {"text": "Balu", "isCorrect": true},
+        {"text": "Niranjan", "isCorrect": false},
+        {"text": "Karthick", "isCorrect": false}
       ]
     }
   ]

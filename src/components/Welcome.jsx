@@ -21,6 +21,7 @@ import {
 import invitation_pic from "../../assets/invitation/invitation_img.jpg";
 
 import invitation_phone from "../../assets/invitation/Invite confetti 2_phone.gif";
+import { vid } from "../dataset";
 
 //VIDEO
 // import vid from ""
@@ -72,7 +73,7 @@ const Welcome = () => {
             style={{ height: "100%" }}
           /> */}
           <video
-            src="https://res.cloudinary.com/dhkkz35jy/video/upload/v1718448159/IMG_0441_gcbtsb.mp4"
+            src={vid}
             alt=""
             autoPlay
             muted
@@ -80,7 +81,7 @@ const Welcome = () => {
             style={{ height: "30rem", width: "20rem" }}
             controls
             // className="only-laptop"
-
+            loading="eager"
             id="image-animation"
           />
           <img
