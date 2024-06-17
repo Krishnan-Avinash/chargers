@@ -4,7 +4,8 @@
       "answerOptions": [
         {"text": "Gowri", "isCorrect": false},
         {"text": "Sweta", "isCorrect": true},
-        {"text": "Shirish", "isCorrect": false}
+        {"text": "Shirish", "isCorrect": false},
+        {"text": "Vaish", "isCorrect": false}
       ]
     },
     {
@@ -12,7 +13,8 @@
       "answerOptions": [
         {"text": "Davya", "isCorrect": true},
         {"text": "Krishna", "isCorrect": false},
-        {"text": "Charutha", "isCorrect": false}
+        {"text": "Charutha", "isCorrect": false},
+        {"text": "Pranay", "isCorrect": false}
       ]
     },
     {
@@ -20,7 +22,8 @@
       "answerOptions": [
         {"text": "Siraj", "isCorrect": true},
         {"text": "Balu", "isCorrect": false},
-        {"text": "Niranjan", "isCorrect": false}
+        {"text": "Niranjan", "isCorrect": false},
+        {"text": "Karthick", "isCorrect": false}
       ]
     },
     {
@@ -28,7 +31,8 @@
       "answerOptions": [
         {"text": "Pranay", "isCorrect": false},
         {"text": "Ranjith", "isCorrect": false},
-        {"text": "Gautham", "isCorrect": true}
+        {"text": "Gautham", "isCorrect": true},
+        {"text": "Pranay", "isCorrect": true}
       ]
     },
     {
@@ -36,7 +40,8 @@
       "answerOptions": [
         {"text": "Balu", "isCorrect": true},
         {"text": "Niranjan", "isCorrect": false},
-        {"text": "Karthick", "isCorrect": false}
+        {"text": "Karthick", "isCorrect": false},
+        {"text": "Shirish", "isCorrect": false}
       ]
     },
     {
@@ -44,7 +49,8 @@
       "answerOptions": [
         {"text": "Balu", "isCorrect": true},
         {"text": "Niranjan", "isCorrect": false},
-        {"text": "Karthick", "isCorrect": false}
+        {"text": "Karthick", "isCorrect": false},
+        {"text": "Shirish", "isCorrect": false}
       ]
     }
   ]
