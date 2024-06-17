@@ -25,43 +25,43 @@ import { vid, img_gif_confetti } from "../dataset";
 
 const Welcome = () => {
   // const { width, height } = useWindowSize();
-  const comp2 = useRef(null);
+  // const comp2 = useRef(null);
 
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-      const t2 = gsap.timeline();
-      t2.from("#image-animation", {
-        position: "absolute",
-        height: "150%",
-        width: "150%",
-        xPercent: "-100",
-        duration: 10,
-        delay: 1,
-        stagger: 2,
-        opacity: 0,
-        filter: "blur(50px)",
-      })
+  // useLayoutEffect(() => {
+  //   let ctx = gsap.context(() => {
+  //     const t2 = gsap.timeline();
+  //     t2.from("#image-animation", {
+  //       position: "absolute",
+  //       height: "150%",
+  //       width: "150%",
+  //       xPercent: "-100",
+  //       duration: 5,
+  //       delay: 1,
+  //       stagger: 2,
+  //       opacity: 0,
+  //       filter: "blur(50px)",
+  //     })
 
-        .to("#image-animation", {
-          xPercent: "+100",
-          duration: 2,
-          position: "absolute",
-          height: "150%",
-          width: "150%",
-          opacity: 0,
-        })
-        .from("#hide", {
-          opacity: 0,
-          duration: 0.5,
-        });
-    }, comp2);
+  //       .to("#image-animation", {
+  //         xPercent: "+100",
+  //         duration: 2,
+  //         position: "absolute",
+  //         height: "150%",
+  //         width: "150%",
+  //         opacity: 0,
+  //       })
+  //       .from("#hide", {
+  //         opacity: 0,
+  //         duration: 0.5,
+  //       });
+  //   }, comp2);
 
-    return () => ctx.revert();
-  }, []);
+  //   return () => ctx.revert();
+  // }, []);
 
   return (
     <div className="main-welcome">
-      <div className="welcome-parent" ref={comp2}>
+      <div className="welcome-parent">
         <div className="welcome-parent-left">
           {/* <img
             className="only-phone"
@@ -69,7 +69,7 @@ const Welcome = () => {
             alt=""
             style={{ height: "100%" }}
           /> */}
-          <video
+          {/* <video
             src={vid}
             alt=""
             autoPlay
@@ -80,7 +80,7 @@ const Welcome = () => {
             // className="only-laptop"
             loading="eager"
             id="image-animation"
-          />
+          /> */}
           <img
             src={img_gif_confetti}
             alt=""
@@ -114,6 +114,10 @@ const Welcome = () => {
         <div className="welcome-parent-right" id="hide">
           <h1>Hello</h1>
           <h1>Join us on date </h1>
+          <h5>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti,
+            iure!
+          </h5>
           <a href="https://www.google.com/" target="_blank">
             📍Click here to get exact location
           </a>
