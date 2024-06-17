@@ -286,3 +286,39 @@
 .major-flex-right {
   width: 60%;
 }
+
+/* //-------------- */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #244855;
+  padding: 20px;
+  width: 80%;
+  color: #fbe9d0;
+  text-shadow: 5px 5px 10px hsl(7, 78%, 55%);
+}
+
+.infos {
+  margin-top: 1rem;
+}
+
+.date-time {
+  /* color: rgba(7, 63, 216, 1); */
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.description {
+  /* margin-top: 0.4rem; */
+  line-height: 1.625;
+  /* color: rgba(107, 114, 128, 1); */
+}
+
+.author {
+  margin-top: 1.3rem;
+  font-size: 0.95rem;
+  line-height: 1.25rem;
+  color: #fbe9d0;
+  text-shadow: 5px 5px 10px hsl(7, 78%, 55%);
+}

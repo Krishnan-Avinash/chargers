@@ -98,14 +98,34 @@ const Welcome = () => {
           />
         </div>
         <div className="welcome-parent-right" id="hide">
-          <h1>Hello</h1>
-          <h1>Join us on date </h1>
-          <h5>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti,
-            iure!
-          </h5>
-          <a href="https://www.google.com/" target="_blank">
-            📍Click here to get exact location
+          <div class="card">
+            <div class="infos">
+              <p class="description">
+                Join us as we celebrate your incredible journey with Chargers.
+                Your dedication, talent, and spirit have been an inspiration. As
+                you take your next step, we want to express our heartfelt
+                gratitude and admiration. All of you have been a cornerstone of
+                our Chargers Family , and we cannot imagine bidding farewell
+                with your absence. This celebration is not just about saying
+                goodbye, it's about expressing our deepest appreciation and the
+                inspiration you have provided. Let’s create one last
+                unforgettable memory together with an evening of fun, laughter,
+                and dance.
+              </p>
+            </div>
+
+            <div class="author">— Chargers⚡</div>
+            <div className="right-box-container">
+              <p class="date-time">One Name</p>
+              <p class="date-time">One Team</p>
+              <p class="date-time">One Love</p>
+            </div>
+            <hr className="horizontal-line" />
+          </div>
+          <a href="" target="_blank">
+            <div className="location-link">
+              📍 Click here to get exact location
+            </div>
           </a>
         </div>
       </div>
