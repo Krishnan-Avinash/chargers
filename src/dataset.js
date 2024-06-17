@@ -9,6 +9,9 @@ import balu from "../assets/balu.jpg";
 import sirish from "../assets/shirish_display.jpg";
 import namboo from "../assets/namboo.jpg";
 
+//INVITATION GIF
+import img_gif_confetti_1 from "../assets/invitation/Invite confetti 2_phone_2_2.gif";
+
 //GROUP IMAGES
 import group1 from "../assets/group-common/group1.png";
 import group2 from "../assets/group-common/group2.png";
@@ -343,5 +346,4 @@ export const dataSet = [
 export const vid =
   "https://res.cloudinary.com/dhkkz35jy/video/upload/v1718448159/IMG_0441_gcbtsb.mp4";
 
-import img_gif_confetti_1 from "../assets/invitation/Invite confetti 2_phone.gif";
 export const img_gif_confetti = img_gif_confetti_1;
