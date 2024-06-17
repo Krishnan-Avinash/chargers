@@ -35,7 +35,7 @@ const Welcome = () => {
         height: "150%",
         width: "150%",
         xPercent: "-100",
-        duration: 5,
+        duration: 10,
         delay: 1,
         stagger: 2,
         opacity: 0,
