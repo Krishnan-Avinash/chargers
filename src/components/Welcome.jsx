@@ -21,6 +21,8 @@ import invitation_pic from "../../assets/invitation/invitation_img.jpg";
 import { vid, img_gif_confetti } from "../dataset";
 
 //VIDEO
+import vid2 from "../../assets/invitation/recent_video_srinath.mp4";
+//VIDEO
 // import vid from ""
 
 const Welcome = () => {
@@ -63,25 +65,19 @@ const Welcome = () => {
     <div className="main-welcome">
       <div className="welcome-parent">
         <div className="welcome-parent-left">
-          {/* <img
-            className="only-phone"
-            src={invitation_pic}
-            alt=""
-            style={{ height: "100%" }}
-          /> */}
-          {/* <video
-            src={vid}
+          <video
+            src={vid2}
             alt=""
             autoPlay
             muted
-            loop
+            // loop
             style={{ height: "30rem", width: "20rem" }}
             controls
-            // className="only-laptop"
+            className="only-laptop"
             loading="eager"
             id="image-animation"
-          /> */}
-          <img
+          />
+          {/* <img
             src={img_gif_confetti}
             alt=""
             // autoPlay
@@ -92,16 +88,6 @@ const Welcome = () => {
             className="only-laptop"
             id="hide"
             loading="eager"
-          />
-          {/* <video
-            src={invitation_phone}
-            alt=""
-            autoPlay
-            muted
-            // loop
-            style={{ height: "30rem", width: "20rem" }}
-            controls
-            className="only-phone"
           /> */}
           <img
             src={img_gif_confetti}
