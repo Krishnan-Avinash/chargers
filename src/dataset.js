@@ -10,7 +10,7 @@ import sirish from "../assets/shirish_display.jpg";
 import namboo from "../assets/namboo.jpg";
 
 //INVITATION GIF
-import img_gif_confetti_1 from "../assets/invitation/Invite confetti 2_phone_2_2.gif";
+import img_gif_confetti_1 from "../assets/invitation/Invite confetti 2_phone_less_size.gif";
 
 //GROUP IMAGES
 import group1 from "../assets/group-common/group1.png";
