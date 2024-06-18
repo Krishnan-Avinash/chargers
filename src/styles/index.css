@@ -333,3 +333,24 @@
 .fontfamilyrajdhani {
   font-family: "Rajdhani", sans-serif;
 }
+.slide-down {
+  align-self: center;
+  color: #fbe9d0;
+  opacity: 0;
+  animation: blink 2s linear 0s infinite alternate;
+  width: 100%;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.top-up-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

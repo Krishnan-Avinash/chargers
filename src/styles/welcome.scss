@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .main-welcome {
-  position: relative;
-  background-image: url("../../assets/chargers\ logo.png");
-  background-repeat: no-repeat;
-  background-position: 47%;
-  background-size: 20%;
-
-  z-index: 100;
   font-family: "Poppins" !important;
 
   display: flex;
@@ -98,20 +91,6 @@
     .Alert {
       margin-top: -1rem;
     }
-  }
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("../../assets/chargers\ logo.png");
-    background-repeat: no-repeat;
-    background-position: 47%;
-    background-size: 20%;
-    opacity: 0; /* Adjust the opacity as needed */
-    // z-index: -1;
   }
 }
 @keyframes checker2 {

@@ -111,38 +111,43 @@ const Individual = () => {
 
           {/* EMAIL JS */}
 
-          <form ref={form} onSubmit={sendEmail}>
-            <input
-              type="text"
-              name="to_name"
-              value={data.name}
-              style={{ display: "none" }}
-            />
-            <input
-              className="password"
-              type="email"
-              name="to"
-              placeholder="Kindly Enter Personal Email Address"
-              onChange={(e) => setP(e.target.value)}
-            />
-            <input
-              type="submit"
-              value="Enter"
-              onClick={() => {
-                if (p.length == 0) {
-                  toast({
-                    title: "Kindly enter correct Email Address.",
-                    status: "warning",
-                    duration: 5000,
-                    isClosable: true,
-                  });
-                  setEmailFlag(false);
-                } else {
-                  setEmailFlag(true);
-                }
-              }}
-              className="button-submit"
-            />
+          <form ref={form} onSubmit={sendEmail} className="top-up-parent">
+            <div>
+              <input
+                type="text"
+                name="to_name"
+                value={data.name}
+                style={{ display: "none" }}
+              />
+              <input
+                className="password"
+                type="email"
+                name="to"
+                placeholder="Kindly Enter Personal Email Address"
+                onChange={(e) => setP(e.target.value)}
+              />
+              <input
+                type="submit"
+                value="Enter"
+                onClick={() => {
+                  if (p.length == 0) {
+                    toast({
+                      title: "Kindly enter correct Email Address.",
+                      status: "warning",
+                      duration: 5000,
+                      isClosable: true,
+                    });
+                    setEmailFlag(false);
+                  } else {
+                    setEmailFlag(true);
+                  }
+                }}
+                className="button-submit"
+              />
+            </div>
+            <p className="slide-down">
+              Slide down to attempt the quiz after entering Email
+            </p>
           </form>
           <Alert status="warning">
             <AlertIcon />
