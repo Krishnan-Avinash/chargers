@@ -21,13 +21,12 @@ import group2 from "../assets/group-common/group2_resized.jpg";
 import group3 from "../assets/group-common/group3_resized.jpg";
 
 //SIRISH IMAGES
-import sirish00 from "../assets/Shirish/sirish00.jpg";
-import sirish01 from "../assets/Shirish/sirish01.png";
-import sirish1 from "../assets/Shirish/sirish1.jpg";
-import sirish2 from "../assets/Shirish/sirish2.jpg";
-import sirish3 from "../assets/Shirish/sirish3.jpg";
-import sirish4 from "../assets/Shirish/sirish4.jpg";
-import sirish5 from "../assets/Shirish/sirish5.png";
+import sirish01 from "../assets/Shirish/sirish01_resized.jpg";
+import sirish1 from "../assets/Shirish/sirish1_resized.jpg";
+import sirish2 from "../assets/Shirish/sirish2_resized.jpg";
+import sirish3 from "../assets/Shirish/sirish3_resized.jpg";
+import sirish4 from "../assets/Shirish/sirish4_resized.jpg";
+import sirish5 from "../assets/Shirish/sirish5_resized.jpg";
 
 //SIRAJ IMAGES
 import siraj00 from "../assets/Siraj/siraj00_resized.jpg";
