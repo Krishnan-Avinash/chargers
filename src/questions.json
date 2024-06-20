@@ -1,57 +1,56 @@
 [
-    {
-      "question": "Whose counting style is this Ready 5....Ready 5......Ready 5?",
-      "answerOptions": [
-        {"text": "Gowri", "isCorrect": false},
-        {"text": "Sweta", "isCorrect": true},
-        {"text": "Shirish", "isCorrect": false},
-        {"text": "Vaish", "isCorrect": false}
-      ]
-    },
-    {
-      "question": "Which seniors catchphrase are these \"Hot burning pant\", \"Room for improvement\"?",
-      "answerOptions": [
-        {"text": "Davya", "isCorrect": true},
-        {"text": "Krishna", "isCorrect": false},
-        {"text": "Charutha", "isCorrect": false},
-        {"text": "Pranay", "isCorrect": false}
-      ]
-    },
-    {
-      "question": "Which of the following has a very strong connection with the song \"Dippam Dappam\"?",
-      "answerOptions": [
-        {"text": "Siraj", "isCorrect": true},
-        {"text": "Balu", "isCorrect": false},
-        {"text": "Niranjan", "isCorrect": false},
-        {"text": "Karthick", "isCorrect": false}
-      ]
-    },
-    {
-      "question": "Who was the Team Head of Chargers 10.0?",
-      "answerOptions": [
-        {"text": "Pranay", "isCorrect": false},
-        {"text": "Ranjith", "isCorrect": false},
-        {"text": "Gautham", "isCorrect": true},
-        {"text": "Pranay", "isCorrect": true}
-      ]
-    },
-    {
-      "question": "Who is the oldest among these?",
-      "answerOptions": [
-        {"text": "Balu", "isCorrect": true},
-        {"text": "Niranjan", "isCorrect": false},
-        {"text": "Karthick", "isCorrect": false},
-        {"text": "Shirish", "isCorrect": false}
-      ]
-    },
-    {
-      "question": "Who is known for their never-ending collection of dad jokes?",
-      "answerOptions": [
-        {"text": "Balu", "isCorrect": true},
-        {"text": "Niranjan", "isCorrect": false},
-        {"text": "Karthick", "isCorrect": false},
-        {"text": "Shirish", "isCorrect": false}
-      ]
-    }
-  ]
-  
+  {
+    "question": "Whose counting style is this Ready 5....Ready 5......Ready 5?",
+    "answerOptions": [
+      {"text": "Gowri", "isCorrect": false},
+      {"text": "Sweta", "isCorrect": true},
+      {"text": "Shirish", "isCorrect": false},
+      {"text": "Vaish", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "Which seniors catchphrase are these \"Hot burning pan\", \"Room for improvement\"?",
+    "answerOptions": [
+      {"text": "Charutha", "isCorrect": true},
+      {"text": "Davya", "isCorrect": false},
+      {"text": "Krishna", "isCorrect": false},
+      {"text": "Pranay", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "Which of the following has a very strong connection with the song \"Dippam Dappam\"?",
+    "answerOptions": [
+      {"text": "Balu", "isCorrect": false},
+      {"text": "Siraj", "isCorrect": true},
+      {"text": "Niranjan", "isCorrect": false},
+      {"text": "Karthick", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "Who was the Team Head of Chargers 10.0?",
+    "answerOptions": [
+      {"text": "Ranjith", "isCorrect": false},
+      {"text": "Pranay", "isCorrect": false},
+      {"text": "Gautham", "isCorrect": true},
+      {"text": "Krishna", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "Who is the oldest among these?",
+    "answerOptions": [
+      {"text": "Niranjan", "isCorrect": false},
+      {"text": "Balu", "isCorrect": false},
+      {"text": "Karthick", "isCorrect": true},
+      {"text": "Shirish", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "Who is known for their never-ending collection of dad jokes?",
+    "answerOptions": [
+      {"text": "Balu", "isCorrect": true},
+      {"text": "Niranjan", "isCorrect": false},
+      {"text": "Karthick", "isCorrect": false},
+      {"text": "Siraj", "isCorrect": false}
+    ]
+  }
+]
