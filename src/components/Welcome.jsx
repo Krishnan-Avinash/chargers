@@ -1,64 +1,15 @@
-import React, { useLayoutEffect, useRef } from "react";
-import { useWindowSize } from "@uidotdev/usehooks";
-import Confetti from "react-confetti";
-
-//GSAP
-import gsap from "gsap";
+import React from "react";
 
 //CHAKRA UI IMPORTS
-import {
-  Alert,
-  AlertIcon,
-  AlertTitle,
-  AlertDescription,
-} from "@chakra-ui/react";
-
-//INVITAION IMPORT
-// import invitation from "../../assets/invitation/IMG_0441.MP4";
-import invitation_pic from "../../assets/invitation/invitation_img.jpg";
+import { Alert, AlertIcon } from "@chakra-ui/react";
 
 // import invitation_phone from "../../assets/invitation/Invite confetti 2_phone.gif";
-import { vid, img_gif_confetti } from "../dataset";
+import { img_gif_confetti } from "../dataset";
 
 //VIDEO
 import vid2 from "../../assets/invitation/recent_video_srinath.mp4";
 
 const Welcome = () => {
-  // const { width, height } = useWindowSize();
-  // const comp2 = useRef(null);
-
-  // useLayoutEffect(() => {
-  //   let ctx = gsap.context(() => {
-  //     const t2 = gsap.timeline();
-  //     t2.from("#image-animation", {
-  //       position: "absolute",
-  //       height: "150%",
-  //       width: "150%",
-  //       xPercent: "-100",
-  //       duration: 5,
-  //       delay: 1,
-  //       stagger: 2,
-  //       opacity: 0,
-  //       filter: "blur(50px)",
-  //     })
-
-  //       .to("#image-animation", {
-  //         xPercent: "+100",
-  //         duration: 2,
-  //         position: "absolute",
-  //         height: "150%",
-  //         width: "150%",
-  //         opacity: 0,
-  //       })
-  //       .from("#hide", {
-  //         opacity: 0,
-  //         duration: 0.5,
-  //       });
-  //   }, comp2);
-
-  //   return () => ctx.revert();
-  // }, []);
-
   return (
     <div className="main-welcome">
       <div className="welcome-parent">
@@ -75,18 +26,6 @@ const Welcome = () => {
             loading="eager"
             id="image-animation"
           />
-          {/* <img
-            src={img_gif_confetti}
-            alt=""
-            // autoPlay
-            // muted
-            // loop
-            style={{ height: "100%", width: "100%", objectFit: "contain" }}
-            // controls
-            className="only-laptop"
-            id="hide"
-            loading="eager"
-          /> */}
           <img
             src={img_gif_confetti}
             alt=""
@@ -131,7 +70,7 @@ const Welcome = () => {
       <div className="bottom">
         <Alert status="success" className="Alert">
           <AlertIcon />
-          An Email for the same has been sent on you entered Email Address
+          An Email for the same has been sent on your entered Email Address
         </Alert>
         {/* <Confetti width={width} height={height} />; */}
       </div>
